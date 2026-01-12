@@ -10,5 +10,3 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),a71)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
-
-include $(LOCAL_PATH)/qcom_decrypt_modules/Android.mk
